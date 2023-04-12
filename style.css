@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100;200;300;400;600&family=Noto+Serif&display=swap');
+
+/* Common style */
+body{
+    margin: 0;
+    background-color: gainsboros;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #ff5959, #ffad5a);
+    height: 45px;
+    width: 160px;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+h2{
+    font-size: 40px;
+    line-height: 45px;
+}
+
+h3{
+    font-size: 28px;
+}
+/* Main container start here */
+
+
+.banner-tital{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.banner-tital span{
+    color:  #ffad5a;
+}
+#tital-desc{
+    font-size: 16px;
+    font-family: 'Noto Serif', serif;
+    width: 80%;
+    line-height: 26px;
+    text-align: justify;
+}
+
+
+#person-img{
+    width: 485px;
+    height: 531px;
+    margin: 0;
+}
+
+/* End of main container */
+
+
+/* My mission style start here */
+.container-mission{
+    margin:0 auto;
+    display: flex;
+    width: 1300px;
+    text-align: center;
+}
+.mission img{
+    width: 150px;
+    margin: auto;
+    
+}
+.mission-title{
+    display: block;
+    margin:30px;
+    font-size: 45px;
+    text-align: center;
+}
+.mission-title span{
+    color: #ffad5a;
+}
+#mission1{
+    background-color: #edf5f6;
+    border:none;
+    border-radius: 8px;
+    padding: 15px;
+    
+}
+
+#mission2{
+    background-color: #ffeeee;
+    border:none;
+    border-radius: 8px;
+    margin:0px 40px;
+    padding: 15px;
+    
+}
+#mission3{
+    background-color: #fff4d6;
+    border:none;
+    border-radius: 8px;
+    padding: 15px;
+}
+ /* Develop pannel start here */
+ .develop-container{
+    margin:60px;
+
+ }
+.develop-container img{
+    width: 500px;
+    height: 500px;
+    border: none;
+    border-radius: 20px;
+}
+#develop-body{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+   
+}
+.develop-desc{
+    text-align: left;
+    display: block;
+    padding-left: 85px;
+    font-size: 18px;
+    width: 100%;
+    line-height: 30px;
+    
+
+}
+
+
+
+
+/* about me style section  */
+.my-container{
+    margin:60px;
+
+}
+
+.my-container img{
+    width: 500px;
+    height: 500px;
+    border: none;
+    border-radius: 20px;
+}
+
+#my-body{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+   
+}
+.my-desc{
+    text-align: left;
+    display: block;
+    padding-right: 85px;
+    
+
+}
+.my-desc{
+    text-align: left;
+    display: block;
+    padding-left: 85px;
+    font-size: 18px;
+    width: 100%;
+    line-height: 30px;
+    
+
+}
+
+/* Our service style start here */
+.container-mission{
+    margin:0 auto;
+    display: flex;
+    width: 1300px;
+}
+.service img{
+    width: 85px;
+    height: 85px;
+    margin: auto;
+    
+    
+}
+.mission-title{
+    display: block;
+    margin:30px;
+    font-size: 45px;
+    text-align: center;
+}
+.mission-title span{
+    color: #ffad5a;
+}
+#service{
+    width: 35%;
+    box-shadow: 5px 9px 30px rgb(219, 217, 217);
+    margin: 15px;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Contact us style start here */
+.get-container{
+    padding: 20px;
+}
+
+#contact-image{
+    width: 90%;
+    text-align: left;
+}
+
+.contact-contant{
+    margin-bottom: 10px;
+    gap: 10px;
+    width: 100%;
+    text-align: left;
+    
+}
+.contact-box {
+    display: flex;
+    margin-bottom: 20px;
+    gap:10px;
+
+}
+
+
+.contact-box input{
+    width: 100%;
+    height: 20px;
+    border: 1px solid #ff5959;
+    padding:10px;
+    
+
+}
+
+.contact-contant textarea {
+    width: 100%;
+    height: 240px;
+    margin-bottom: 20px;
+    border: 1px solid #ff5959;
+  }
+
+  .footer-banner{
+    background-color:#13103a;
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+  }
+
+  #footer{
+    font-family: 'Lobster', cursive;
+    color: white;
+
+  }
+
+  #footer span{
+    color:#ffad5a;
+  }
+  .footer-banner p{
+    color:gray;
+  }
+  /* .footer {
+    
+    text-align: center;
+    padding: 100px 0;
+  }  */
+
+
